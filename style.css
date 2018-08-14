@@ -1,0 +1,91 @@
+/* CSS files add styling rules to your content */
+
+body {  
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #fff;
+  color: #FC452B
+
+}
+
+a{
+  color: inherit;
+}
+
+a:hover{
+  background-color: #FC452B;
+  color: white
+}
+
+::selection{
+  background: yellow;
+  color: black;}
+
+h1 {
+  font-family: 'Eczar', serif;
+  font-size: 70px;
+  margin-bottom: -50px;
+}
+
+h2{
+  font-family: 'Eczar', serif;
+  line-height: 1;
+}
+
+.explain{
+  font-size: 35px;
+}
+
+.invite{
+  font-size: 20px;
+}
+
+button{
+  padding: 10px;
+  font-family: 'Work Sans', sans-serif; 
+  font-size: 30px;
+    background-color: #ffffff;
+  color: #FC452B;
+  border-color: #FC452B;
+  border-style: solid;
+  border-width: 3px;
+  cursor: pointer;
+}
+
+button:hover{
+  color: #ffffff;
+  background-color: #FC452B;
+  
+}
+
+#idea{
+  font-size: 40px;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    body{width: 90%;}
+    
+    
+    h1{
+      font-size: 35px;
+    margin-bottom: 0;}
+    
+    #idea{font-size: 20px;}
+    
+    .explain{
+      font-size: 20px;}
+    
+    button{
+      font-size: 15px;
+    border-width:1px;
+    padding: 5px;}
+
+}
+
+footer{padding-bottom: 30px;}

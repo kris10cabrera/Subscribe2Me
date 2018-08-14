@@ -1,3 +1,9 @@
-# Subscribe2Me
-Subscription service generator
-built on Glitch
+Irreverant Subscription Service Generator
+=================
+
+
+
+Made by [kris10cabrera](http://kristencabrera.com)
+-------------------
+
+\ ゜o゜)ノ
